@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000496] (drone_binome) JobQueued: {'identifier': 'drone_binome', 'dependencies': OrderedDict()}
+[0.000550] (drone_binome) JobStarted: {'identifier': 'drone_binome'}
+[0.014852] (drone_binome) JobProgress: {'identifier': 'drone_binome', 'progress': 'cmake'}
+[0.016286] (drone_binome) Command: {'cmd': ['/usr/bin/cmake', '/home/rabe/ros2_ws/src/drone_binome', '-DCMAKE_INSTALL_PREFIX=/home/rabe/ros2_ws/install/drone_binome'], 'cwd': '/home/rabe/ros2_ws/build/drone_binome', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'rabe', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rabe', 'OLDPWD': '/home/rabe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2997', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rabe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rabe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rabe-Nitro-ANV16-42:@/tmp/.ICE-unix/2917,unix/rabe-Nitro-ANV16-42:/tmp/.ICE-unix/2917', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c8764201_1f0b_4b04_8141_e8f5885d4fef', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.200', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rabe/ros2_ws/build/drone_binome', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048861] (drone_binome) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.098974] (-) TimerEvent: {}
+[0.199457] (-) TimerEvent: {}
+[0.299844] (-) TimerEvent: {}
+[0.333618] (drone_binome) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.343794] (drone_binome) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.368815] (drone_binome) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.375404] (drone_binome) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.384554] (drone_binome) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.394675] (drone_binome) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399930] (-) TimerEvent: {}
+[0.443543] (drone_binome) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.444969] (drone_binome) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500085] (-) TimerEvent: {}
+[0.502746] (drone_binome) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.553568] (drone_binome) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.579287] (drone_binome) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.596767] (drone_binome) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.600182] (-) TimerEvent: {}
+[0.700452] (-) TimerEvent: {}
+[0.700869] (drone_binome) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.732422] (drone_binome) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.735685] (drone_binome) StdoutLine: {'line': b'-- Build files have been written to: /home/rabe/ros2_ws/build/drone_binome\n'}
+[0.746286] (drone_binome) CommandEnded: {'returncode': 0}
+[0.747046] (drone_binome) JobProgress: {'identifier': 'drone_binome', 'progress': 'build'}
+[0.747730] (drone_binome) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rabe/ros2_ws/build/drone_binome', '--', '-j16', '-l16'], 'cwd': '/home/rabe/ros2_ws/build/drone_binome', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'rabe', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rabe', 'OLDPWD': '/home/rabe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2997', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rabe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rabe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rabe-Nitro-ANV16-42:@/tmp/.ICE-unix/2917,unix/rabe-Nitro-ANV16-42:/tmp/.ICE-unix/2917', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c8764201_1f0b_4b04_8141_e8f5885d4fef', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.200', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rabe/ros2_ws/build/drone_binome', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.800577] (-) TimerEvent: {}
+[0.808537] (drone_binome) StdoutLine: {'line': b'[  0%] Built target drone_node_autogen_timestamp_deps\n'}
+[0.894211] (drone_binome) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target drone_node\x1b[0m\n'}
+[0.900656] (-) TimerEvent: {}
+[0.930593] (drone_binome) StdoutLine: {'line': b'[ 20%] Built target drone_node_autogen\n'}
+[0.972927] (drone_binome) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o\x1b[0m\n'}
+[1.000806] (-) TimerEvent: {}
+[1.101182] (-) TimerEvent: {}
+[1.201606] (-) TimerEvent: {}
+[1.301973] (-) TimerEvent: {}
+[1.402373] (-) TimerEvent: {}
+[1.502791] (-) TimerEvent: {}
+[1.603206] (-) TimerEvent: {}
+[1.703651] (-) TimerEvent: {}
+[1.804047] (-) TimerEvent: {}
+[1.904416] (-) TimerEvent: {}
+[2.004763] (-) TimerEvent: {}
+[2.105129] (-) TimerEvent: {}
+[2.205432] (-) TimerEvent: {}
+[2.305713] (-) TimerEvent: {}
+[2.405968] (-) TimerEvent: {}
+[2.506275] (-) TimerEvent: {}
+[2.606600] (-) TimerEvent: {}
+[2.706907] (-) TimerEvent: {}
+[2.807226] (-) TimerEvent: {}
+[2.907559] (-) TimerEvent: {}
+[3.007865] (-) TimerEvent: {}
+[3.108170] (-) TimerEvent: {}
+[3.208627] (-) TimerEvent: {}
+[3.309326] (-) TimerEvent: {}
+[3.409830] (-) TimerEvent: {}
+[3.510732] (-) TimerEvent: {}
+[3.611537] (-) TimerEvent: {}
+[3.711862] (-) TimerEvent: {}
+[3.812153] (-) TimerEvent: {}
+[3.912385] (-) TimerEvent: {}
+[4.012634] (-) TimerEvent: {}
+[4.112937] (-) TimerEvent: {}
+[4.213248] (-) TimerEvent: {}
+[4.313582] (-) TimerEvent: {}
+[4.413885] (-) TimerEvent: {}
+[4.514144] (-) TimerEvent: {}
+[4.614430] (-) TimerEvent: {}
+[4.714739] (-) TimerEvent: {}
+[4.815042] (-) TimerEvent: {}
+[4.915307] (-) TimerEvent: {}
+[5.015605] (-) TimerEvent: {}
+[5.115917] (-) TimerEvent: {}
+[5.216230] (-) TimerEvent: {}
+[5.316581] (-) TimerEvent: {}
+[5.416894] (-) TimerEvent: {}
+[5.517221] (-) TimerEvent: {}
+[5.617645] (-) TimerEvent: {}
+[5.718041] (-) TimerEvent: {}
+[5.818447] (-) TimerEvent: {}
+[5.918849] (-) TimerEvent: {}
+[6.019256] (-) TimerEvent: {}
+[6.119725] (-) TimerEvent: {}
+[6.220111] (-) TimerEvent: {}
+[6.320499] (-) TimerEvent: {}
+[6.420902] (-) TimerEvent: {}
+[6.521299] (-) TimerEvent: {}
+[6.621740] (-) TimerEvent: {}
+[6.722110] (-) TimerEvent: {}
+[6.822394] (-) TimerEvent: {}
+[6.922692] (-) TimerEvent: {}
+[7.023027] (-) TimerEvent: {}
+[7.123298] (-) TimerEvent: {}
+[7.223555] (-) TimerEvent: {}
+[7.323829] (-) TimerEvent: {}
+[7.424054] (-) TimerEvent: {}
+[7.524274] (-) TimerEvent: {}
+[7.624508] (-) TimerEvent: {}
+[7.724746] (-) TimerEvent: {}
+[7.825018] (-) TimerEvent: {}
+[7.925288] (-) TimerEvent: {}
+[8.025638] (-) TimerEvent: {}
+[8.125939] (-) TimerEvent: {}
+[8.226237] (-) TimerEvent: {}
+[8.326605] (-) TimerEvent: {}
+[8.426909] (-) TimerEvent: {}
+[8.527222] (-) TimerEvent: {}
+[8.627537] (-) TimerEvent: {}
+[8.727820] (-) TimerEvent: {}
+[8.828051] (-) TimerEvent: {}
+[8.928319] (-) TimerEvent: {}
+[9.028569] (-) TimerEvent: {}
+[9.128837] (-) TimerEvent: {}
+[9.229044] (-) TimerEvent: {}
+[9.329283] (-) TimerEvent: {}
+[9.429518] (-) TimerEvent: {}
+[9.529765] (-) TimerEvent: {}
+[9.630063] (-) TimerEvent: {}
+[9.730346] (-) TimerEvent: {}
+[9.830671] (-) TimerEvent: {}
+[9.930945] (-) TimerEvent: {}
+[10.031196] (-) TimerEvent: {}
+[10.131488] (-) TimerEvent: {}
+[10.231711] (-) TimerEvent: {}
+[10.331966] (-) TimerEvent: {}
+[10.432287] (-) TimerEvent: {}
+[10.532788] (-) TimerEvent: {}
+[10.590923] (drone_binome) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable drone_node\x1b[0m\n'}
+[10.632904] (-) TimerEvent: {}
+[10.733246] (-) TimerEvent: {}
+[10.833625] (-) TimerEvent: {}
+[10.933854] (-) TimerEvent: {}
+[11.034116] (-) TimerEvent: {}
+[11.134369] (-) TimerEvent: {}
+[11.234621] (-) TimerEvent: {}
+[11.334887] (-) TimerEvent: {}
+[11.435241] (-) TimerEvent: {}
+[11.535547] (-) TimerEvent: {}
+[11.635863] (-) TimerEvent: {}
+[11.736162] (-) TimerEvent: {}
+[11.817854] (drone_binome) StdoutLine: {'line': b'[100%] Built target drone_node\n'}
+[11.830826] (drone_binome) CommandEnded: {'returncode': 0}
+[11.831070] (drone_binome) JobProgress: {'identifier': 'drone_binome', 'progress': 'install'}
+[11.836226] (-) TimerEvent: {}
+[11.839102] (drone_binome) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rabe/ros2_ws/build/drone_binome'], 'cwd': '/home/rabe/ros2_ws/build/drone_binome', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'rabe', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rabe', 'OLDPWD': '/home/rabe/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2997', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rabe', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rabe', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rabe-Nitro-ANV16-42:@/tmp/.ICE-unix/2917,unix/rabe-Nitro-ANV16-42:/tmp/.ICE-unix/2917', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c8764201_1f0b_4b04_8141_e8f5885d4fef', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.200', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rabe/ros2_ws/build/drone_binome', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.846762] (drone_binome) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.847032] (drone_binome) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.847248] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/lib/drone_binome/drone_node\n'}
+[11.847510] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/worlds/monde_binome.sdf\n'}
+[11.847763] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/Parrot Bebop 2.zip\n'}
+[11.847849] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/model_drone/meshes/hull.dae\n'}
+[11.847914] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/hull.dae\n'}
+[11.847970] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_fl.dae\n'}
+[11.848041] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_fr.dae\n'}
+[11.848091] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_rl.dae\n'}
+[11.848163] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_rr.dae\n'}
+[11.848229] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/model.config\n'}
+[11.848297] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/model.sdf\n'}
+[11.848379] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/1.png\n'}
+[11.848452] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/2.png\n'}
+[11.848548] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/3.png\n'}
+[11.848617] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/4.png\n'}
+[11.848688] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/5.png\n'}
+[11.848803] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/package_run_dependencies/drone_binome\n'}
+[11.848909] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/parent_prefix_path/drone_binome\n'}
+[11.849005] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/ament_prefix_path.sh\n'}
+[11.849071] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/ament_prefix_path.dsv\n'}
+[11.849184] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/path.sh\n'}
+[11.849264] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/path.dsv\n'}
+[11.849352] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.bash\n'}
+[11.849451] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.sh\n'}
+[11.849527] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.zsh\n'}
+[11.849597] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.dsv\n'}
+[11.849651] (drone_binome) StdoutLine: {'line': b'-- Symlinking: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/package.dsv\n'}
+[11.858551] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/packages/drone_binome\n'}
+[11.858720] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/cmake/drone_binomeConfig.cmake\n'}
+[11.858760] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/cmake/drone_binomeConfig-version.cmake\n'}
+[11.858873] (drone_binome) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/package.xml\n'}
+[11.860278] (drone_binome) CommandEnded: {'returncode': 0}
+[11.869786] (drone_binome) JobEnded: {'identifier': 'drone_binome', 'rc': 0}
+[11.870447] (-) EventReactorShutdown: {}

@@ -1,0 +1,43 @@
+[0.010s] Invoking command in '/home/rabe/ros2_ws/build/drone_binome': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16
+[0.058s] [  0%] Built target drone_node_autogen_timestamp_deps
+[0.098s] [ 20%] [34m[1mAutomatic MOC and UIC for target drone_node[0m
+[0.126s] [ 20%] Built target drone_node_autogen
+[0.197s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m
+[8.657s] [ 60%] [32m[1mLinking CXX executable drone_node[0m
+[9.837s] [100%] Built target drone_node
+[9.849s] Invoked command in '/home/rabe/ros2_ws/build/drone_binome' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16
+[9.859s] Invoking command in '/home/rabe/ros2_ws/build/drone_binome': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rabe/ros2_ws/build/drone_binome
+[9.865s] -- Install configuration: ""
+[9.865s] -- Execute custom install script
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/lib/drone_binome/drone_node
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/worlds/monde_binome.sdf
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/Parrot Bebop 2.zip
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/model_drone/meshes/hull.dae
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/hull.dae
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_fl.dae
+[9.866s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_fr.dae
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_rl.dae
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/meshes/propeller_rr.dae
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/model.config
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/model.sdf
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/1.png
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/2.png
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/3.png
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/4.png
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/models/parrot_bebop_2/thumbnails/5.png
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/package_run_dependencies/drone_binome
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/parent_prefix_path/drone_binome
+[9.867s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/ament_prefix_path.sh
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/ament_prefix_path.dsv
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/path.sh
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/environment/path.dsv
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.bash
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.sh
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.zsh
+[9.868s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/local_setup.dsv
+[9.868s] -- Symlinking: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/package.dsv
+[9.877s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/ament_index/resource_index/packages/drone_binome
+[9.877s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/cmake/drone_binomeConfig.cmake
+[9.878s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/cmake/drone_binomeConfig-version.cmake
+[9.878s] -- Up-to-date symlink: /home/rabe/ros2_ws/install/drone_binome/share/drone_binome/package.xml
+[9.880s] Invoked command in '/home/rabe/ros2_ws/build/drone_binome' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rabe/ros2_ws/build/drone_binome

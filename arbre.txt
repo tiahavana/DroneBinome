@@ -1,0 +1,282 @@
+.
+├── arbre.txt
+├── build
+│   ├── COLCON_IGNORE
+│   └── drone_binome
+│       ├── ament_cmake_core
+│       │   ├── drone_binomeConfig.cmake
+│       │   ├── drone_binomeConfig-version.cmake
+│       │   ├── package.cmake
+│       │   └── stamps
+│       │       ├── ament_prefix_path.sh.stamp
+│       │       ├── nameConfig.cmake.in.stamp
+│       │       ├── nameConfig-version.cmake.in.stamp
+│       │       ├── package_xml_2_cmake.py.stamp
+│       │       ├── package.xml.stamp
+│       │       ├── path.sh.stamp
+│       │       └── templates_2_cmake.py.stamp
+│       ├── ament_cmake_environment_hooks
+│       │   ├── ament_prefix_path.dsv
+│       │   ├── local_setup.bash
+│       │   ├── local_setup.dsv
+│       │   ├── local_setup.sh
+│       │   ├── local_setup.zsh
+│       │   ├── package.dsv
+│       │   └── path.dsv
+│       ├── ament_cmake_index
+│       │   └── share
+│       │       └── ament_index
+│       │           └── resource_index
+│       │               ├── package_run_dependencies
+│       │               │   └── drone_binome
+│       │               ├── packages
+│       │               │   └── drone_binome
+│       │               └── parent_prefix_path
+│       │                   └── drone_binome
+│       ├── ament_cmake_package_templates
+│       │   └── templates.cmake
+│       ├── ament_cmake_symlink_install
+│       │   ├── ament_cmake_symlink_install.cmake
+│       │   └── ament_cmake_symlink_install_uninstall_script.cmake
+│       ├── ament_cmake_symlink_install_targets_0_.cmake
+│       ├── ament_cmake_uninstall_target
+│       │   └── ament_cmake_uninstall_target.cmake
+│       ├── AMENT_IGNORE
+│       ├── cmake_args.last
+│       ├── CMakeCache.txt
+│       ├── CMakeFiles
+│       │   ├── 3.28.3
+│       │   │   ├── CMakeCCompiler.cmake
+│       │   │   ├── CMakeCXXCompiler.cmake
+│       │   │   ├── CMakeDetermineCompilerABI_C.bin
+│       │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│       │   │   ├── CMakeSystem.cmake
+│       │   │   ├── CompilerIdC
+│       │   │   │   ├── a.out
+│       │   │   │   ├── CMakeCCompilerId.c
+│       │   │   │   └── tmp
+│       │   │   └── CompilerIdCXX
+│       │   │       ├── a.out
+│       │   │       ├── CMakeCXXCompilerId.cpp
+│       │   │       └── tmp
+│       │   ├── cmake.check_cache
+│       │   ├── CMakeConfigureLog.yaml
+│       │   ├── CMakeDirectoryInformation.cmake
+│       │   ├── CMakeRuleHashes.txt
+│       │   ├── CMakeScratch
+│       │   ├── drone_binome_uninstall.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   └── progress.make
+│       │   ├── drone_node_autogen.dir
+│       │   │   ├── AutogenInfo.json
+│       │   │   ├── AutogenUsed.txt
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── ParseCache.txt
+│       │   │   └── progress.make
+│       │   ├── drone_node_autogen_timestamp_deps.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   └── progress.make
+│       │   ├── drone_node.dir
+│       │   │   ├── build.make
+│       │   │   ├── cmake_clean.cmake
+│       │   │   ├── compiler_depend.internal
+│       │   │   ├── compiler_depend.make
+│       │   │   ├── compiler_depend.ts
+│       │   │   ├── DependInfo.cmake
+│       │   │   ├── depend.make
+│       │   │   ├── drone_node_autogen
+│       │   │   │   ├── mocs_compilation.cpp.o
+│       │   │   │   └── mocs_compilation.cpp.o.d
+│       │   │   ├── flags.make
+│       │   │   ├── link.txt
+│       │   │   ├── progress.make
+│       │   │   └── src
+│       │   │       ├── drone_main.cpp.o
+│       │   │       └── drone_main.cpp.o.d
+│       │   ├── Makefile2
+│       │   ├── Makefile.cmake
+│       │   ├── pkgRedirects
+│       │   ├── progress.marks
+│       │   ├── TargetDirectories.txt
+│       │   └── uninstall.dir
+│       │       ├── build.make
+│       │       ├── cmake_clean.cmake
+│       │       ├── compiler_depend.make
+│       │       ├── compiler_depend.ts
+│       │       ├── DependInfo.cmake
+│       │       └── progress.make
+│       ├── cmake_install.cmake
+│       ├── colcon_build.rc
+│       ├── colcon_command_prefix_build.sh
+│       ├── colcon_command_prefix_build.sh.env
+│       ├── CTestConfiguration.ini
+│       ├── CTestCustom.cmake
+│       ├── CTestTestfile.cmake
+│       ├── drone_node
+│       ├── drone_node_autogen
+│       │   ├── deps
+│       │   ├── include
+│       │   ├── moc_predefs.h
+│       │   ├── mocs_compilation.cpp
+│       │   └── timestamp
+│       ├── install_manifest.txt
+│       ├── Makefile
+│       └── symlink_install_manifest.txt
+├── install
+│   ├── COLCON_IGNORE
+│   ├── drone_binome
+│   │   ├── lib
+│   │   │   └── drone_binome
+│   │   │       └── drone_node -> /home/rabe/ros2_ws/build/drone_binome/drone_node
+│   │   └── share
+│   │       ├── ament_index
+│   │       │   └── resource_index
+│   │       │       ├── package_run_dependencies
+│   │       │       │   └── drone_binome -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/drone_binome
+│   │       │       ├── packages
+│   │       │       │   └── drone_binome -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_index/share/ament_index/resource_index/packages/drone_binome
+│   │       │       └── parent_prefix_path
+│   │       │           └── drone_binome -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/drone_binome
+│   │       ├── colcon-core
+│   │       │   └── packages
+│   │       │       └── drone_binome
+│   │       └── drone_binome
+│   │           ├── cmake
+│   │           │   ├── drone_binomeConfig.cmake -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_core/drone_binomeConfig.cmake
+│   │           │   └── drone_binomeConfig-version.cmake -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_core/drone_binomeConfig-version.cmake
+│   │           ├── environment
+│   │           │   ├── ament_prefix_path.dsv -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/ament_prefix_path.dsv
+│   │           │   ├── ament_prefix_path.sh -> /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+│   │           │   ├── path.dsv -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/path.dsv
+│   │           │   └── path.sh -> /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+│   │           ├── hook
+│   │           │   ├── cmake_prefix_path.dsv
+│   │           │   ├── cmake_prefix_path.ps1
+│   │           │   └── cmake_prefix_path.sh
+│   │           ├── local_setup.bash -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/local_setup.bash
+│   │           ├── local_setup.dsv -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/local_setup.dsv
+│   │           ├── local_setup.sh -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/local_setup.sh
+│   │           ├── local_setup.zsh -> /home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/local_setup.zsh
+│   │           ├── models
+│   │           │   ├── model_drone
+│   │           │   │   └── meshes
+│   │           │   │       └── hull.dae -> /home/rabe/ros2_ws/src/drone_binome/models/model_drone/meshes/hull.dae
+│   │           │   ├── parrot_bebop_2
+│   │           │   │   ├── meshes
+│   │           │   │   │   ├── hull.dae -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/meshes/hull.dae
+│   │           │   │   │   ├── propeller_fl.dae -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/meshes/propeller_fl.dae
+│   │           │   │   │   ├── propeller_fr.dae -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/meshes/propeller_fr.dae
+│   │           │   │   │   ├── propeller_rl.dae -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/meshes/propeller_rl.dae
+│   │           │   │   │   └── propeller_rr.dae -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/meshes/propeller_rr.dae
+│   │           │   │   ├── model.config -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/model.config
+│   │           │   │   ├── model.sdf -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/model.sdf
+│   │           │   │   └── thumbnails
+│   │           │   │       ├── 1.png -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/thumbnails/1.png
+│   │           │   │       ├── 2.png -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/thumbnails/2.png
+│   │           │   │       ├── 3.png -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/thumbnails/3.png
+│   │           │   │       ├── 4.png -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/thumbnails/4.png
+│   │           │   │       └── 5.png -> /home/rabe/ros2_ws/src/drone_binome/models/parrot_bebop_2/thumbnails/5.png
+│   │           │   └── Parrot Bebop 2.zip -> /home/rabe/ros2_ws/src/drone_binome/models/Parrot Bebop 2.zip
+│   │           ├── package.bash
+│   │           ├── package.dsv
+│   │           ├── package.ps1
+│   │           ├── package.sh
+│   │           ├── package.xml -> /home/rabe/ros2_ws/src/drone_binome/package.xml
+│   │           ├── package.zsh
+│   │           └── worlds
+│   │               └── monde_binome.sdf -> /home/rabe/ros2_ws/src/drone_binome/worlds/monde_binome.sdf
+│   ├── local_setup.bash
+│   ├── local_setup.ps1
+│   ├── local_setup.sh
+│   ├── _local_setup_util_ps1.py
+│   ├── _local_setup_util_sh.py
+│   ├── local_setup.zsh
+│   ├── setup.bash
+│   ├── setup.ps1
+│   ├── setup.sh
+│   └── setup.zsh
+├── log
+│   ├── build_2026-04-04_10-21-43
+│   │   ├── drone_binome
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   └── logger_all.log
+│   ├── build_2026-04-04_13-47-40
+│   │   ├── drone_binome
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   └── logger_all.log
+│   ├── build_2026-04-04_13-53-45
+│   │   ├── drone_binome
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   └── logger_all.log
+│   ├── build_2026-04-04_13-56-21
+│   │   ├── drone_binome
+│   │   │   ├── command.log
+│   │   │   ├── stderr.log
+│   │   │   ├── stdout.log
+│   │   │   ├── stdout_stderr.log
+│   │   │   └── streams.log
+│   │   ├── events.log
+│   │   └── logger_all.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2026-04-04_13-56-21
+├── src
+│   └── drone_binome
+│       ├── CMakeLists.txt
+│       ├── models
+│       │   ├── model_drone
+│       │   │   └── meshes
+│       │   │       └── hull.dae
+│       │   ├── parrot_bebop_2
+│       │   │   ├── meshes
+│       │   │   │   ├── hull.dae
+│       │   │   │   ├── propeller_fl.dae
+│       │   │   │   ├── propeller_fr.dae
+│       │   │   │   ├── propeller_rl.dae
+│       │   │   │   └── propeller_rr.dae
+│       │   │   ├── model.config
+│       │   │   ├── model.sdf
+│       │   │   └── thumbnails
+│       │   │       ├── 1.png
+│       │   │       ├── 2.png
+│       │   │       ├── 3.png
+│       │   │       ├── 4.png
+│       │   │       └── 5.png
+│       │   └── Parrot Bebop 2.zip
+│       ├── package.xml
+│       ├── src
+│       │   ├── drone_main.cpp
+│       │   └── drone_ui.ui
+│       └── worlds
+│           └── monde_binome.sdf
+└── start_drone.sh
+
+77 directories, 203 files

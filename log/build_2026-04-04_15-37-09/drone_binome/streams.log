@@ -1,0 +1,17 @@
+[0.009s] Invoking command in '/home/rabe/ros2_ws/build/drone_binome': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16
+[0.062s] [  0%] Built target drone_node_autogen_timestamp_deps
+[0.115s] [ 20%] Built target drone_node_autogen
+[0.183s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m
+[2.002s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.002s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:171:35:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QLayout[m[K’
+[2.002s]   171 |     if (ui->layout()) ui->layout()[01;31m[K->[m[KsetMenuBar(mb);
+[2.002s]       |                                   [01;31m[K^~[m[K
+[2.002s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtUiTools/QUiLoader:1[m[K,
+[2.002s]                  from [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:9[m[K:
+[2.002s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtUiTools/quiloader.h:60:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QLayout[m[K’
+[2.003s]    60 | class [01;36m[KQLayout[m[K;
+[2.003s]       |       [01;36m[K^~~~~~~[m[K
+[4.290s] gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:97 : CMakeFiles/drone_node.dir/src/drone_main.cpp.o] Erreur 1
+[4.291s] gmake[1]: *** [CMakeFiles/Makefile2:140 : CMakeFiles/drone_node.dir/all] Erreur 2
+[4.291s] gmake: *** [Makefile:146 : all] Erreur 2
+[4.294s] Invoked command in '/home/rabe/ros2_ws/build/drone_binome' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16

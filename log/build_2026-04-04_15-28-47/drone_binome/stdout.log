@@ -1,0 +1,4 @@
+[  0%] Built target drone_node_autogen_timestamp_deps
+[ 20%] [34m[1mAutomatic MOC and UIC for target drone_node[0m
+[ 20%] Built target drone_node_autogen
+[ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m

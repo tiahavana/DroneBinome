@@ -1,0 +1,12 @@
+[  0%] Built target drone_node_autogen_timestamp_deps
+[ 20%] [34m[1mAutomatic MOC and UIC for target drone_node[0m
+[ 20%] Built target drone_node_autogen
+[ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m
+[01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:[m[K In lambda function:
+[01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:170:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<DroneStation, __gnu_cxx::_S_atomic, false, false>::element_type = class DroneStation[m[K’ {aka ‘[01m[Kclass DroneStation[m[K’} has no member named ‘[01m[Kget_get_dist[m[K’; did you mean ‘[01m[Kget_dist[m[K’?
+  170 | ui->findChild<QLCDNumber*>("lcd_dist")) lcd3->display(node->[01;31m[Kget_get_dist[m[K());
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                             [32m[Kget_dist[m[K
+gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:97 : CMakeFiles/drone_node.dir/src/drone_main.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:140 : CMakeFiles/drone_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

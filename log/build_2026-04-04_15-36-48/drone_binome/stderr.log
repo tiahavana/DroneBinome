@@ -1,0 +1,12 @@
+[01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:171:35:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass QLayout[m[K’
+  171 |     if (ui->layout()) ui->layout()[01;31m[K->[m[KsetMenuBar(mb);
+      |                                   [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtUiTools/QUiLoader:1[m[K,
+                 from [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:9[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtUiTools/quiloader.h:60:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass QLayout[m[K’
+   60 | class [01;36m[KQLayout[m[K;
+      |       [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:97 : CMakeFiles/drone_node.dir/src/drone_main.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:140 : CMakeFiles/drone_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

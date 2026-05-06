@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/rabe/ros2_ws/build/drone_binome': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16
+[0.058s] [  0%] Built target drone_node_autogen_timestamp_deps
+[0.111s] [ 20%] [34m[1mAutomatic MOC and UIC for target drone_node[0m
+[0.139s] [ 20%] Built target drone_node_autogen
+[0.205s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m
+[2.062s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:[m[K In lambda function:
+[2.062s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:170:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<DroneStation, __gnu_cxx::_S_atomic, false, false>::element_type = class DroneStation[m[K’ {aka ‘[01m[Kclass DroneStation[m[K’} has no member named ‘[01m[Kget_get_dist[m[K’; did you mean ‘[01m[Kget_dist[m[K’?
+[2.062s]   170 | ui->findChild<QLCDNumber*>("lcd_dist")) lcd3->display(node->[01;31m[Kget_get_dist[m[K());
+[2.063s]       |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[2.063s]       |                                                             [32m[Kget_dist[m[K
+[4.348s] gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:97 : CMakeFiles/drone_node.dir/src/drone_main.cpp.o] Erreur 1
+[4.349s] gmake[1]: *** [CMakeFiles/Makefile2:140 : CMakeFiles/drone_node.dir/all] Erreur 2
+[4.349s] gmake: *** [Makefile:146 : all] Erreur 2
+[4.352s] Invoked command in '/home/rabe/ros2_ws/build/drone_binome' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16

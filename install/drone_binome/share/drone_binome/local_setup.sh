@@ -1,0 +1,1 @@
+/home/rabe/ros2_ws/build/drone_binome/ament_cmake_environment_hooks/local_setup.sh

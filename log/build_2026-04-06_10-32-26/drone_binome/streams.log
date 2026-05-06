@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/rabe/ros2_ws/build/drone_binome': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16
+[0.130s] [  0%] Built target drone_node_autogen_timestamp_deps
+[0.322s] [ 20%] Built target drone_node_autogen
+[0.456s] [ 40%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/drone_main.cpp.o[0m
+[3.742s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:[m[K In lambda function:
+[3.742s] [01m[K/home/rabe/ros2_ws/src/drone_binome/src/drone_main.cpp:190:92:[m[K [01;31m[Kerror: [m[K‘[01m[Klz[m[K’ was not declared in this scope; did you mean ‘[01m[Kez[m[K’?
+[3.742s]   190 | ().toDouble(); target_y = ey->text().toDouble(); target_z = [01;31m[Klz[m[K->text().toDouble();
+[3.742s]       |                                                             [01;31m[K^~[m[K
+[3.742s]       |                                                             [32m[Kez[m[K
+[6.551s] gmake[2]: *** [CMakeFiles/drone_node.dir/build.make:97 : CMakeFiles/drone_node.dir/src/drone_main.cpp.o] Erreur 1
+[6.552s] gmake[1]: *** [CMakeFiles/Makefile2:140 : CMakeFiles/drone_node.dir/all] Erreur 2
+[6.552s] gmake: *** [Makefile:146 : all] Erreur 2
+[6.554s] Invoked command in '/home/rabe/ros2_ws/build/drone_binome' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rabe/ros2_ws/build/drone_binome -- -j16 -l16

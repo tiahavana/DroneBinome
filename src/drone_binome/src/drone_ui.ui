@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DroneControl</class>
+ <widget class="QWidget" name="DroneControl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Station de Contrôle Drone - Binôme</string>
+  </property>
+  <property name="styleSheet">
+   <string>background-color: #1a1a1a; color: #ffffff; font-family: 'Segoe UI', sans-serif;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_main">
+   
+   <item>
+    <layout class="QHBoxLayout" name="layout_cameras">
+     <item>
+      <widget class="QLabel" name="view_leader">
+       <property name="minimumSize">
+        <size><width>500</width><height>375</height></size>
+       </property>
+       <property name="styleSheet">
+        <string>border: 2px solid #3498db; background-color: #000000; border-radius: 10px;</string>
+       </property>
+       <property name="text"><string>FLUX LEADER</string></property>
+       <property name="alignment"><set>Qt::AlignCenter</set></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="view_follower">
+       <property name="minimumSize">
+        <size><width>500</width><height>375</height></size>
+       </property>
+       <property name="styleSheet">
+        <string>border: 2px solid #e74c3c; background-color: #000000; border-radius: 10px;</string>
+       </property>
+       <property name="text"><string>FLUX FOLLOWER</string></property>
+       <property name="alignment"><set>Qt::AlignCenter</set></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation"><set>Qt::Vertical</set></property>
+     <property name="sizeHint" stdset="0">
+      <size><width>20</width><height>20</height></size>
+     </property>
+    </spacer>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="layout_telemetrie">
+     <item>
+      <layout class="QVBoxLayout">
+       <item><widget class="QLabel"><property name="text"><string>ALTITUDE LEADER (m)</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget></item>
+       <item>
+        <widget class="QLCDNumber" name="lcd_alt_leader">
+         <property name="minimumSize"><size><width>0</width><height>100</height></size></property>
+         <property name="digitCount"><number>5</number></property>
+         <property name="segmentStyle"><enum>QLCDNumber::Flat</enum></property>
+         <property name="styleSheet"><string>color: #3498db;</string></property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     
+     <item>
+      <layout class="QVBoxLayout">
+       <item><widget class="QLabel"><property name="text"><string>DISTANCE BINOME (m)</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget></item>
+       <item>
+        <widget class="QLCDNumber" name="lcd_distance">
+         <property name="minimumSize"><size><width>0</width><height>120</height></size></property>
+         <property name="digitCount"><number>5</number></property>
+         <property name="segmentStyle"><enum>QLCDNumber::Flat</enum></property>
+         <property name="styleSheet"><string>color: #f1c40f;</string></property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+
+     <item>
+      <layout class="QVBoxLayout">
+       <item><widget class="QLabel"><property name="text"><string>ALTITUDE FOLLOWER (m)</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget></item>
+       <item>
+        <widget class="QLCDNumber" name="lcd_alt_follower">
+         <property name="minimumSize"><size><width>0</width><height>100</height></size></property>
+         <property name="digitCount"><number>5</number></property>
+         <property name="segmentStyle"><enum>QLCDNumber::Flat</enum></property>
+         <property name="styleSheet"><string>color: #e74c3c;</string></property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="layout_boutons">
+     <item>
+      <widget class="QPushButton" name="btn_start">
+       <property name="minimumSize"><size><width>0</width><height>60</height></size></property>
+       <property name="text"><string>SYSTEM START/STOP</string></property>
+       <property name="styleSheet"><string>font-weight: bold; font-size: 14px;</string></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_rth_ui">
+       <property name="minimumSize"><size><width>0</width><height>60</height></size></property>
+       <property name="text"><string>RETOUR HOME (RTH)</string></property>
+       <property name="styleSheet"><string>font-weight: bold; font-size: 14px; background-color: #7f8c8d;</string></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="layout_controles">
+     <item>
+      <widget class="QPushButton" name="btn_leader">
+       <property name="minimumSize"><size><width>0</width><height>50</height></size></property>
+       <property name="text"><string>FORCE LEADER</string></property>
+       <property name="styleSheet"><string>background-color: #2980b9; border-radius: 5px;</string></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_follower">
+       <property name="minimumSize"><size><width>0</width><height>50</height></size></property>
+       <property name="text"><string>FORCE FOLLOWER</string></property>
+       <property name="styleSheet"><string>background-color: #c0392b; border-radius: 5px;</string></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
